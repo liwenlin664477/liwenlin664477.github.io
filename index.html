@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wenlin Li</title>
+  <meta name="description" content="Wenlin Li — Ph.D. researcher in optimization, operations research, and machine learning for transportation systems at Arizona State University." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top nav -->
+  <header class="topbar">
+    <a class="topbar__name" href="#">Wenlin Li</a>
+    <nav class="topbar__nav">
+      <a href="#home">Home</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="CV.pdf" target="_blank" rel="noopener">CV</a>
+      <button class="topbar__theme" id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <!-- Profile -->
+    <section class="profile" id="home">
+      <img class="profile__photo" src="assets/avatar.jpg" alt="Wenlin Li" />
+      <div class="profile__info">
+        <h1 class="profile__name">Wenlin Li <span class="profile__zh">李文林</span></h1>
+        <p class="profile__title">
+          Ph.D. Student, Transportation Engineering<br />
+          <a href="https://www.asu.edu/" target="_blank" rel="noopener">Arizona State University</a>
+        </p>
+        <p class="profile__loc">📍 Tempe, AZ</p>
+        <ul class="profile__links">
+          <li><a href="mailto:wenlinli@asu.edu">✉️ Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=I3hH_hYAAAAJ&hl=en" target="_blank" rel="noopener">🎓 Google Scholar</a></li>
+          <li><a href="https://github.com/liwenlin664477" target="_blank" rel="noopener">💻 GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/wenlin-li-752b591b8/" target="_blank" rel="noopener">🔗 LinkedIn</a></li>
+          <li><a href="CV.pdf" target="_blank" rel="noopener">📄 CV</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bio -->
+    <section class="block">
+      <p class="bio">
+        I am a Ph.D. researcher in <strong>optimization</strong>,
+        <strong>operations research</strong>, and <strong>machine learning</strong>
+        for transportation systems, with a computer science foundation. My interests
+        span large-scale network modeling, transportation planning, decomposition
+        algorithms, and ML for scientific computing.
+      </p>
+      <p class="bio">
+        I am currently looking for a <strong>Summer 2027 research / applied scientist
+        internship</strong> in ML, optimization, or fleet &amp; marketplace decision
+        systems. Feel free to <a href="mailto:wenlinli@asu.edu">reach out</a>.
+      </p>
+    </section>
+
+    <!-- Research interests -->
+    <section class="block" id="research">
+      <h2 class="block__title">Research Interests</h2>
+      <ul class="interests">
+        <li><strong>Large-scale optimization &amp; OR</strong> — column generation, Lagrangian relaxation, Branch-and-Price.</li>
+        <li><strong>Network modeling</strong> — time-space networks, multi-commodity flow, decomposition for freight &amp; mobility.</li>
+        <li><strong>Transportation planning</strong> — freight rail routing, blocking, and fleet decision support.</li>
+        <li><strong>ML for scientific computing</strong> — PINNs, neural ODEs, and learned operators for PDE solvers.</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="block" id="education">
+      <h2 class="block__title">Education</h2>
+      <ul class="timeline">
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">Arizona State University</span>
+            <span class="entry__meta">Tempe, AZ · Expected 2028</span>
+          </div>
+          <p class="entry__role">Ph.D. in Transportation Engineering</p>
+        </li>
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">University of Utah</span>
+            <span class="entry__meta">Salt Lake City, UT · May 2023</span>
+          </div>
+          <p class="entry__role">B.S. in Computer Science</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="block" id="experience">
+      <h2 class="block__title">Research Experience</h2>
+      <ul class="timeline">
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">Graduate Research Associate — Arizona State University</span>
+            <span class="entry__meta">2024 – Present</span>
+          </div>
+          <ul class="entry__points">
+            <li>Research in large-scale optimization, operations research, and transportation planning.</li>
+            <li>Develop network modeling and decomposition approaches for freight and mobility systems.</li>
+          </ul>
+        </li>
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">Undergraduate Researcher — University of Utah</span>
+            <span class="entry__meta">2022 – 2023</span>
+          </div>
+          <ul class="entry__points">
+            <li>Research at the intersection of deep learning and scientific computing.</li>
+            <li>Improved the efficiency of scientific simulations by combining deep learning with domain knowledge.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="block" id="projects">
+      <h2 class="block__title">Research Projects</h2>
+      <ul class="timeline">
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">Freight Rail Network Optimization — Argonne National Laboratory</span>
+            <span class="entry__meta">2026 – Present</span>
+          </div>
+          <ul class="entry__points">
+            <li>Contribute to a national-scale freight rail network optimization effort in collaboration with Argonne National Laboratory.</li>
+            <li>Develop and validate solver pipelines for large-scale routing and blocking decision support.</li>
+          </ul>
+        </li>
+        <li class="entry">
+          <div class="entry__head">
+            <span class="entry__org">Neural PDE Solvers — University of Utah</span>
+            <span class="entry__meta">2024</span>
+          </div>
+          <ul class="entry__points">
+            <li>Designed CNN architectures to learn first- and second-order spatial derivatives for PDE solvers.</li>
+            <li>Integrated learned partial-derivative operators into neural ODE frameworks to improve scientific modeling accuracy.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="block" id="skills">
+      <h2 class="block__title">Skills</h2>
+      <div class="skills">
+        <div class="skills__row">
+          <span class="skills__label">Languages</span>
+          <div class="skills__tags">
+            <span class="tag">Python</span><span class="tag">C/C++</span><span class="tag">MATLAB</span><span class="tag">Java</span>
+          </div>
+        </div>
+        <div class="skills__row">
+          <span class="skills__label">ML &amp; SciComp</span>
+          <div class="skills__tags">
+            <span class="tag">PyTorch</span><span class="tag">JAX</span><span class="tag">scikit-learn</span><span class="tag">pandas</span><span class="tag">NumPy</span><span class="tag">PINNs</span><span class="tag">Neural ODEs</span><span class="tag">CNNs</span>
+          </div>
+        </div>
+        <div class="skills__row">
+          <span class="skills__label">Optimization &amp; OR</span>
+          <div class="skills__tags">
+            <span class="tag">Column Generation</span><span class="tag">Lagrangian Relaxation</span><span class="tag">Branch-and-Price</span><span class="tag">Time-Space Networks</span><span class="tag">Multi-commodity Flow</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Wenlin Li · Built with plain HTML/CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
